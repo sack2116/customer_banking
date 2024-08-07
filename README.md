@@ -1,15 +1,11 @@
-# customer_banking
-Assigment# 3
 # Customer_Banking Assigment#3
 Module 4 Challenge 3 - Customer_Banking
-
-# Variety Food Truck Order System
 
 ## Overview
 
 This project is designed to simulate a simple banking system where users can create savings and CD (Certificate of Deposit) accounts. The system calculates the interest earned based on user-provided parameters such as initial balance, interest rate, and the number of months.
 
-"""
+    """
     Args: For Savings Account
         initial_balance (float): The starting amount of money in the savings account.
         interest_rate (float): The annual interest rate applied to the savings account.
@@ -81,13 +77,13 @@ This project is designed to simulate a simple banking system where users can cre
 
 ## Usage
 
-To run the order system, execute the following command in your terminal:
+To run the Banking System, execute the following command in your terminal:
 ```sh
 python customer_banking.py
 ```
-1.Run the customer_banking.py file to start the program
-2.Follow the prompts to enter the initial balance, interest rate, and number of months for both savings and CD accounts.
-3.The program will calculate and display the interest earned and the updated account balances.
+1. Run the customer_banking.py file to start the program
+2. Follow the prompts to enter the initial balance, interest rate, and number of months for both savings and CD accounts.
+3. The program will calculate and display the interest earned and the updated account balances.
 
 ## Code Structure
 
@@ -97,7 +93,8 @@ python customer_banking.py
 * customer_banking.py: Contains the main function to run the program.
 
 ## Example
-Examples:For Savings Account
+Examples: For Savings Account
+
         >>> create_savings_account(1000.0, 5.0, 12)
         (1050.0, 50.0)
 
@@ -111,6 +108,7 @@ Examples:For Savings Account
 
         >>> create_cd_account(2000.0, 3.0, 24)
         (2100.0, 100.0)
+        
 ## PseudoCode
 
 ### Savings Account Setup
