@@ -93,8 +93,9 @@ python customer_banking.py
 * customer_banking.py: Contains the main function to run the program.
 
 ## Example
-Examples: For Savings Account
-
+Examples: 
+        >>>
+            :For Savings Account
         >>> create_savings_account(1000.0, 5.0, 12)
         (1050.0, 50.0)
 
