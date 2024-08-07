@@ -94,7 +94,8 @@ python customer_banking.py
 
 ## Example
 Examples: 
-        >>>
+
+         
             :For Savings Account
         >>> create_savings_account(1000.0, 5.0, 12)
         (1050.0, 50.0)
